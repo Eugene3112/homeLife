@@ -24,6 +24,18 @@ $(document).ready(function(){
         ]
     });
   });
+$(document).ready(function(){
+    $('.top-header__window').on('click', function(){
+        $('.modal-window').fadeIn();
+    });
+    $('.close').on('click',function(){
+        $('.modal-window').fadeOut();
+    });
+    $('.request-form__button').on('click',function(){
+        $('.modal-window').fadeOut();
+    });
+    
+});
 $(window).on('load', function () {
     var $preloader = $('.preload'),
         $svg_anm   = $preloader.find('.svg_anm');

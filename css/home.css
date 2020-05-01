@@ -281,6 +281,81 @@
     background-color: #f5f8f1;
     color: #84a748;
 }
+.modal-window{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    background: #edce4779;
+    z-index: 30;
+}
+.modal-window__item{
+    width: 30rem;
+    padding: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-12rem;
+    margin-top:-12rem;
+    background-color: #ffffff;
+}
+.request-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#84a748;
+}
+.request__title{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.close{
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    color: #191816;
+    right: 0;
+    top:0;
+    cursor: pointer;
+}
+.request-form__name{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    height: 3rem;
+    border:1px solid #84a748;
+    color: inherit;
+}
+.request-form__tel{
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    height: 3rem;
+    border:1px solid #84a748;
+    color: inherit;
+}
+.request-form__text{
+    width: 100%;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    border:1px solid #84a748;
+    color: inherit;
+}
+.request-form__button{
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
 
 @media only screen  and (max-width : 1024px){
     .top-header__logo{
