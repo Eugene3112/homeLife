@@ -1,2 +1,2 @@
 # homeLife
-https://eugene3112.github.io/homeLife/
+https://eugene3112.github.io/homeLife
